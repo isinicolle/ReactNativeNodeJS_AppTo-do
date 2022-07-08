@@ -24,6 +24,16 @@ Video: https://youtu.be/
 -Node.js
 <br>
 -Express
+<br>
+-nodemon 
+<br>
+-@babel/core 
+<br>
+-@babel/cli 
+<br>
+-@babel/preset-env 
+<br>
+-@babel/node
 
 ---------------
 
