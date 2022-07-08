@@ -64,6 +64,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Compiled files with Babel
 
+### `npm run start`
+
+Start Application
+
 Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 ---------------
 
