@@ -43,3 +43,5 @@ Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 <img src="#" height="250px" alt="Imagen del proyecto">
 
 </div>
+
+<h6>Este proyecto se encuentra en mi portafolio , fue realizado como proyecto personal para mi aprendizaje</h6>
