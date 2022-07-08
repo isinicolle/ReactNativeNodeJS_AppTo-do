@@ -14,6 +14,9 @@
 ## Tecnologias utilizadas: 
 
 -React Native
+<br>
 -Mysql
+<br>
 -Node.js
+<br>
 -Express
