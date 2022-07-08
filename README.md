@@ -58,6 +58,8 @@ Video: https://youtu.be/
 -react-native-safe-area-context
 <br>
 -@react-navigation/native
+<br>
+-@react-navigation/native-stack
 
 ---------------
 
