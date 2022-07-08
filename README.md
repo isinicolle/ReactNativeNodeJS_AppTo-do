@@ -93,4 +93,15 @@ Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 
 </div>
 
-<h6>Este proyecto se encuentra en mi portafolio , fue realizado como proyecto personal para mi aprendizaje</h6>
+<h6>Para ejecutar el proyecto:
+<br>
+1. Genera el script de la base de datos que esta en: /backend/scripts/db.sql (MySQL)
+<br>
+2. Corre la api con npm run start
+<br>
+3. corre la app con expo start
+<br>
+4. presiona w para ver del navegador
+<br>
+5. escanea el codigo QR luego de instalar expo Go en tu celular para probarla desde tu celular.</h6>
+<br>
