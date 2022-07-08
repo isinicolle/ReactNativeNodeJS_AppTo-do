@@ -23,6 +23,7 @@ Video: https://youtu.be/
 <br>
 -Node.js
 <br>
+-Expo
 
 ## NPM
 
@@ -49,6 +50,14 @@ Video: https://youtu.be/
 -swagger-ui-express 
 <br>
 -dotenv
+<br>
+-Expo-cli
+<br>
+-react-native-screens
+<br>
+-react-native-safe-area-context
+<br>
+-@react-navigation/native
 
 ---------------
 
