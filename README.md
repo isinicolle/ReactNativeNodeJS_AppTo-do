@@ -34,6 +34,18 @@ Video: https://youtu.be/
 -@babel/preset-env 
 <br>
 -@babel/node
+<br>
+-mysql2 
+<br>
+-morgan 
+<br>
+-cors 
+<br>
+-swagger-jsdoc 
+<br>
+-swagger-ui-express 
+<br>
+-dotenv
 
 ---------------
 
