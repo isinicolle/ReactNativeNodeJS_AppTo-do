@@ -23,6 +23,9 @@ Video: https://youtu.be/
 <br>
 -Node.js
 <br>
+
+## NPM
+
 -Express
 <br>
 -nodemon 
@@ -50,12 +53,16 @@ Video: https://youtu.be/
 ---------------
 
 
-## Scripts disponible
+## Scripts disponibles
 
 ### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### `npm run build`
+
+Compiled files with Babel
 
 Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 ---------------
