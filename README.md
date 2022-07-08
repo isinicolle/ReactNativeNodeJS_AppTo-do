@@ -79,6 +79,10 @@ Compiled files with Babel
 
 Start Application
 
+### `expo start`
+
+Start Application
+
 Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 ---------------
 
