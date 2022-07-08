@@ -11,6 +11,10 @@
 </div>
 
 ---------------------
+## Demo
+
+Video: https://youtu.be/
+
 ## Tecnologias utilizadas: 
 
 -React Native
@@ -20,3 +24,22 @@
 -Node.js
 <br>
 -Express
+
+---------------
+
+
+## Scripts disponible
+
+### `npm run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
+---------------
+
+<div align="center" >
+
+<img src="#" height="250px" alt="Imagen del proyecto">
+
+</div>
