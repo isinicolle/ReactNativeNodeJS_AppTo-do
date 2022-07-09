@@ -89,7 +89,7 @@ Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 <div align="center" >
 <img src="https://github.com/isinicolle/ReactNativeNodeJS_AppTodo/blob/main/my-app-task-isis/assets/adaptive-icon.png" height="250px">
 
-<img src="#" height="250px" alt="Imagen del proyecto">
+<img src="https://github.com/isinicolle/isinicolle.github.io/blob/main/assets/img/Proyectos/proyecto-todoreactnative.png" height="250px" alt="Imagen del proyecto">
 
 </div>
 
