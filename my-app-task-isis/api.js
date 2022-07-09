@@ -1,7 +1,7 @@
-const API = "http://10.0.2.2:3000/tasks";
+const API = "http://localhost:3000/tasks";
 
-export const deleteTask = async (id) => {
-  await fetch(`${API}/${id}`, {
+export const deleteTask = async (taskId) => {
+  await fetch(`${API}/${taskId}`, {
     method: "DELETE",
   });
 };
