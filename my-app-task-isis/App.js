@@ -16,9 +16,9 @@ const App = () => {
           name="HomeScreen"
           component={HomeScreen}
           options={({ navigation }) => ({
-            title: "Tasks App",
+            title: "Aplicación TO - DO",
             headerStyle: {
-              backgroundColor: "#222f3e",
+              backgroundColor: "#120317",
             },
             headerTitleStyle: {
               color: "#ffffff",
@@ -28,7 +28,7 @@ const App = () => {
                 onPress={() => navigation.navigate("TaskFormScreen")}
               >
                 <Text style={{ color: "#fff", marginRight: 20, fontSize: 15 }}>
-                  New
+                  + Agregar Tarea 
                 </Text>
               </TouchableOpacity>
             ),
@@ -40,7 +40,7 @@ const App = () => {
           options={{
             title: 'Create a Task',
             headerStyle: {
-              backgroundColor: "#222f3e",
+              backgroundColor: "#120317",
             },
             headerTintColor: "#fff",
 

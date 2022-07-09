@@ -10,10 +10,6 @@ const TaskFormScreen = ({ navigation, route }) => {
   });
   const [editing, setEditing] = useState(false);
 
-  // if (route && route.params) {
-  //   navigation.setOptions({ headerTitle: "Updating Task" });
-  // }
-
   useEffect(() => {
     if (route.params && route.params.id) {
       setEditing(true);
@@ -45,7 +41,7 @@ const TaskFormScreen = ({ navigation, route }) => {
     <Layout>
       <TextInput
         style={styles.input}
-        placeholder="Write a Title"
+        placeholder="Escribe el titulo de la tarea"
         placeholderTextColor="#576574"
         value={task.title}
         onChangeText={(text) => handleChange("title", text)}
@@ -53,7 +49,7 @@ const TaskFormScreen = ({ navigation, route }) => {
 
       <TextInput
         style={styles.input}
-        placeholder="Write a short Description"
+        placeholder="Escribe la descripcion de la tarea"
         placeholderTextColor="#576574"
         value={task.description}
         onChangeText={(text) => handleChange("description", text)}
@@ -61,11 +57,11 @@ const TaskFormScreen = ({ navigation, route }) => {
 
       {!editing ? (
         <TouchableOpacity style={styles.buttonSave} onPress={handleSubmit}>
-          <Text style={styles.buttonText}>Save Task</Text>
+          <Text style={styles.buttonText}>Guardar</Text>
         </TouchableOpacity>
       ) : (
         <TouchableOpacity style={styles.buttonUpdate} onPress={handleSubmit}>
-          <Text style={styles.buttonText}>Update Task</Text>
+          <Text style={styles.buttonText}>Actualizar</Text>
         </TouchableOpacity>
       )}
     </Layout>
@@ -78,7 +74,7 @@ const styles = StyleSheet.create({
     marginBottom: 7,
     fontSize: 14,
     borderWidth: 1,
-    borderColor: "#10ac84",
+    borderColor: "#36031d",
     height: 30,
     color: "#ffffff",
     textAlign: "center",
@@ -90,7 +86,7 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     borderRadius: 5,
     marginBottom: 3,
-    backgroundColor: "#10ac84",
+    backgroundColor: "#2d409c",
     width: "90%",
   },
   buttonUpdate: {
@@ -98,7 +94,7 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     borderRadius: 5,
     marginBottom: 3,
-    backgroundColor: "#e58e26",
+    backgroundColor: "#296b2b",
     width: "90%",
   },
   buttonText: {
