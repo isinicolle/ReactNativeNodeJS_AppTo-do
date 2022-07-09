@@ -21,25 +21,20 @@ const TasksList = ({ navigation }) => {
 
   const onRefresh = React.useCallback(async () => {
     setRefreshing(true);
-    // wait(2000).then(() => setRefreshing(false));
     await getUsers();
     setRefreshing(false);
   }, []);
 
   const handleDelete = (id) => {
-    Alert.alert("Delete Task", "Are you sure you want to delete the task", [
-      {
-        text: "Cancel",
-        style: "cancel",
-      },
-      {
-        text: "Ok",
-        onPress: async () => {
-          await deleteTask(id);
-          await getUsers();
-        },
-      },
-    ]);
+    deleteTask(id)
+      .then(() => {
+        Alert.alert("Task deleted successfully");
+        getUsers();
+      })
+      .catch((error) => {
+        console.log(error);
+      }
+      );
   };
 
   useEffect(() => {
