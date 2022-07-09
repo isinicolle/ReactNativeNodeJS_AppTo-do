@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { TextInput, TouchableOpacity, Text, StyleSheet } from "react-native";
-import { saveTask, getTask, updateTask, deleteTask, setTask} from "../api";
+import { saveTask, getTask, updateTask } from "../api";
 import Layout from "../components/Layout";
 
 const TaskFormScreen = ({ navigation, route }) => {
@@ -9,6 +9,10 @@ const TaskFormScreen = ({ navigation, route }) => {
     description: "",
   });
   const [editing, setEditing] = useState(false);
+
+  // if (route && route.params) {
+  //   navigation.setOptions({ headerTitle: "Updating Task" });
+  // }
 
   useEffect(() => {
     if (route.params && route.params.id) {
